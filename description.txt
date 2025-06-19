@@ -1,0 +1,3 @@
+NurseFreeHeal is a simple mod that makes the Nurse’s healing service completely free and instantaneous.
+As soon as you open the chat with the Nurse, your health is fully restored and all removable debuffs are cleared—no coins required.
+Perfect for players who want quick, hassle-free healing without manual purchases.
