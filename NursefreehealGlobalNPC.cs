@@ -32,6 +32,7 @@ namespace Nursefreeheal
                 return;
             }
             base.GetChat(npc, ref chat);
+            
         }
     }
 }
