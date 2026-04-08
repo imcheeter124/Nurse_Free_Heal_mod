@@ -1,42 +1,40 @@
 Mods: {
 	Nurse_Free_Heal_mod: {
 		NurseQuotes: {
-			Quote0: "Fine, this one's on me. Don't tell my accountant."
-			Quote1: "You look terrible. Here, no charge... this time."
-			Quote2: "I'm a nurse, not a business. Take it for free!"
-			Quote3: "Don't get used to it. I have bills to pay too, you know."
-			Quote4: "You owe me one. Actually, you owe me like twenty."
-			Quote5: "Free of charge! ...I'm going to regret this."
-			Quote6: "Just try not to get hurt again in the next five minutes, okay?"
-			Quote7: "I patched you up. Now go do something less dangerous. Like farming."
-			Quote8: "You again? Do you even own a shield?"
-			Quote9: "I should start charging interest at this point."
-			Quote10: "This is the third time today. I'm starting to think you enjoy getting hurt."
-			Quote11: "Hold still... there. Try not to walk into lava this time."
-			Quote12: "You know, most people avoid danger. You seem to collect it."
-			Quote13: "Good as new! Well... new-ish."
-			Quote14: "Next time, maybe dodge?"
-			Quote15: "I became a nurse to help people, not to babysit one person repeatedly."
-			Quote16: "Even Patron is more careful than you, and he's a dog."
-			Quote17: "Not dead yet... good, because I was already giving up."
-			Quote18: "The Cossacks wouldn't have allowed this. Or they would, but with dignity."
-			Quote19: "I healed you. At least bring me some borscht or something."
-			Quote20: "Your mom would definitely not approve of what you're doing here."
-			Quote21: "Oh my goodness... this hero showed up again."
-			Quote22: "This isn't grandma's jam — free and no questions asked. Appreciate it."
-			Quote23: "Go already, or I'll be late for my TV show."
-			Quote24: "You came from far away just to get hurt? Impressive dedication."
-			Quote25: "A programmer who can't dodge? Sounds about right."
-			Quote26: "Even the city traffic is safer than you. Somehow."
-			Quote27: "You know, some people bring gifts. You bring injuries."
-			Quote28: "You survived getting here. That's already an achievement."
+			Quote0: Fine, this one's on me. Don't tell my accountant.
+			Quote1: You look terrible. Here, no charge... this time.
+			Quote2: I'm a nurse, not a business. Take it for free!
+			Quote3: Don't get used to it. I have bills to pay too, you know.
+			Quote4: You owe me one. Actually, you owe me like twenty.
+			Quote5: Free of charge! ...I'm going to regret this.
+			Quote6: Just try not to get hurt again in the next five minutes, okay?
+			Quote7: I patched you up. Now go do something less dangerous. Like farming.
+			Quote8: You again? Do you even own a shield?
+			Quote9: I should start charging interest at this point.
+			Quote10: This is the third time today. I'm starting to think you enjoy getting hurt.
+			Quote11: Hold still... there. Try not to walk into lava this time.
+			Quote12: You know, most people avoid danger. You seem to collect it.
+			Quote13: Good as new! Well... new-ish.
+			Quote14: Next time, maybe dodge?
+			Quote15: I became a nurse to help people, not to babysit one person repeatedly.
+			Quote16: Even Patron is more careful than you, and he's a dog.
+			Quote17: Not dead yet... good, because I was already giving up.
+			Quote18: The Cossacks wouldn't have allowed this. Or they would, but with dignity.
+			Quote19: I healed you. At least bring me some borscht or something.
+			Quote20: Your mom would definitely not approve of what you're doing here.
+			Quote21: Oh my goodness... this hero showed up again.
+			Quote22: This isn't grandma's jam — free and no questions asked. Appreciate it.
+			Quote23: Go already, or I'll be late for my TV show.
+			Quote24: You came from far away just to get hurt? Impressive dedication.
+			Quote25: A programmer who can't dodge? Sounds about right.
+			Quote26: Even the city traffic is safer than you. Somehow.
+			Quote27: You know, some people bring gifts. You bring injuries.
+			Quote28: You survived getting here. That's already an achievement.
 		}
-		Chat: {
-			CooldownMessage: "Come back in {0} second(s). I need a break too!"
-		}
-		UI: {
-			CooldownDisplay: "Nurse: {0}s"
-		}
+
+		Chat.CooldownMessage: Come back in {0} second(s). I need a break too!
+		UI.CooldownDisplay: Nurse: {0}s
+
 		Configs: {
 			NurseHealConfig: {
 				DisplayName: Nurse Heal Config

@@ -1,42 +1,40 @@
 Mods: {
 	Nurse_Free_Heal_mod: {
 		NurseQuotes: {
-			Quote0: "Está bien, esta vez corre de mi cuenta. ¡No se lo digas a mi contador!"
-			Quote1: "Tienes muy mala pinta. Toma, sin cobro... por esta vez."
-			Quote2: "¡Soy enfermera, no una empresa. Tómalo gratis!"
-			Quote3: "No te acostumbres. Yo también tengo facturas que pagar, ¿sabes?"
-			Quote4: "Me debes una. En realidad, me debes como veinte."
-			Quote5: "¡Gratis! ...Voy a arrepentirme de esto."
-			Quote6: "Intenta no herirte de nuevo en los próximos cinco minutos, ¿de acuerdo?"
-			Quote7: "Te remendé. Ahora ve a hacer algo menos peligroso. Como cultivar."
-			Quote8: "¿Otra vez tú? ¿Acaso tienes escudo?"
-			Quote9: "A estas alturas debería cobrarte intereses."
-			Quote10: "Es la tercera vez hoy. Empiezo a pensar que te gusta hacerte daño."
-			Quote11: "Quieto... listo. Esta vez intenta no caer en la lava."
-			Quote12: "La mayoría evita el peligro. Tú pareces coleccionarlo."
-			Quote13: "¡Como nuevo! Bueno... casi nuevo."
-			Quote14: "La próxima vez, ¿quizás esquivar?"
-			Quote15: "Me hice enfermera para ayudar a la gente, no para cuidar a una sola persona una y otra vez."
-			Quote16: "Incluso Patron es más cuidadoso que tú, y él es un perro."
-			Quote17: "Aún no muerto... bien, porque ya me había resignado."
-			Quote18: "Los cosacos no habrían permitido esto. O sí, pero con dignidad."
-			Quote19: "Te curé. Al menos tráeme algo de borscht o algo así."
-			Quote20: "Tu mamá definitivamente no aprobaría lo que estás haciendo aquí."
-			Quote21: "Dios mío... este héroe apareció de nuevo."
-			Quote22: "Esto no es la mermelada de la abuela — gratis y sin preguntas. Agradécelo."
-			Quote23: "Vete ya, o llegaré tarde a mi serie."
-			Quote24: "¿Viniste de lejos solo para hacerte daño? Dedicación impresionante."
-			Quote25: "¿Un programador que no sabe esquivar? Suena bastante acertado."
-			Quote26: "Hasta el tráfico de la ciudad es más seguro que tú. De alguna manera."
-			Quote27: "Algunos traen regalos. Tú traes lesiones."
-			Quote28: "Sobreviviste llegar hasta aquí. Eso ya es un logro."
+			Quote0: Está bien, esta vez corre de mi cuenta. ¡No se lo digas a mi contador!
+			Quote1: Tienes muy mala pinta. Toma, sin cobro... por esta vez.
+			Quote2: ¡Soy enfermera, no una empresa. Tómalo gratis!
+			Quote3: No te acostumbres. Yo también tengo facturas que pagar, ¿sabes?
+			Quote4: Me debes una. En realidad, me debes como veinte.
+			Quote5: ¡Gratis! ...Voy a arrepentirme de esto.
+			Quote6: Intenta no herirte de nuevo en los próximos cinco minutos, ¿de acuerdo?
+			Quote7: Te remendé. Ahora ve a hacer algo menos peligroso. Como cultivar.
+			Quote8: ¿Otra vez tú? ¿Acaso tienes escudo?
+			Quote9: A estas alturas debería cobrarte intereses.
+			Quote10: Es la tercera vez hoy. Empiezo a pensar que te gusta hacerte daño.
+			Quote11: Quieto... listo. Esta vez intenta no caer en la lava.
+			Quote12: La mayoría evita el peligro. Tú pareces coleccionarlo.
+			Quote13: ¡Como nuevo! Bueno... casi nuevo.
+			Quote14: La próxima vez, ¿quizás esquivar?
+			Quote15: Me hice enfermera para ayudar a la gente, no para cuidar a una sola persona una y otra vez.
+			Quote16: Incluso Patron es más cuidadoso que tú, y él es un perro.
+			Quote17: Aún no muerto... bien, porque ya me había resignado.
+			Quote18: Los cosacos no habrían permitido esto. O sí, pero con dignidad.
+			Quote19: Te curé. Al menos tráeme algo de borscht o algo así.
+			Quote20: Tu mamá definitivamente no aprobaría lo que estás haciendo aquí.
+			Quote21: Dios mío... este héroe apareció de nuevo.
+			Quote22: Esto no es la mermelada de la abuela — gratis y sin preguntas. Agradécelo.
+			Quote23: Vete ya, o llegaré tarde a mi serie.
+			Quote24: ¿Viniste de lejos solo para hacerte daño? Dedicación impresionante.
+			Quote25: ¿Un programador que no sabe esquivar? Suena bastante acertado.
+			Quote26: Hasta el tráfico de la ciudad es más seguro que tú. De alguna manera.
+			Quote27: Algunos traen regalos. Tú traes lesiones.
+			Quote28: Sobreviviste llegar hasta aquí. Eso ya es un logro.
 		}
-		Chat: {
-			CooldownMessage: "Vuelve en {0} segundo(s). ¡Yo también necesito un descanso!"
-		}
-		UI: {
-			CooldownDisplay: "Enfermera: {0}s"
-		}
+
+		Chat.CooldownMessage: Vuelve en {0} segundo(s). ¡Yo también necesito un descanso!
+		UI.CooldownDisplay: Enfermera: {0}s
+
 		Configs: {
 			NurseHealConfig: {
 				DisplayName: Configuración de curación gratuita

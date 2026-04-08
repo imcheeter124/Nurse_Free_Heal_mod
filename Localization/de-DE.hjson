@@ -1,42 +1,40 @@
 Mods: {
 	Nurse_Free_Heal_mod: {
 		NurseQuotes: {
-			Quote0: "Na gut, diesmal geht es auf mich. Sag es nicht meinem Buchhalter."
-			Quote1: "Du siehst schrecklich aus. Hier, kein Aufpreis... diesmal."
-			Quote2: "Ich bin Krankenschwester, kein Unternehmen. Nimm es umsonst!"
-			Quote3: "Gewöhn dich nicht daran. Ich habe auch Rechnungen zu bezahlen, weißt du."
-			Quote4: "Du schuldest mir eine. Eigentlich schuldest du mir etwa zwanzig."
-			Quote5: "Kostenlos! ...Das werde ich bereuen."
-			Quote6: "Versuch einfach, dich in den nächsten fünf Minuten nicht wieder zu verletzen, okay?"
-			Quote7: "Ich hab dich geflickt. Jetzt geh und mach etwas weniger Gefährliches. Wie Landwirtschaft."
-			Quote8: "Schon wieder du? Hast du überhaupt einen Schild?"
-			Quote9: "Langsam sollte ich Zinsen berechnen."
-			Quote10: "Das ist heute das dritte Mal. Ich glaube, du genießt es, verletzt zu werden."
-			Quote11: "Halt still... fertig. Diesmal bitte nicht in die Lava laufen."
-			Quote12: "Die meisten meiden Gefahr. Du scheinst sie zu sammeln."
-			Quote13: "Wie neu! Na ja... fast neu."
-			Quote14: "Vielleicht beim nächsten Mal ausweichen?"
-			Quote15: "Ich bin Krankenschwester geworden um zu helfen, nicht um eine Person immer wieder zu betreuen."
-			Quote16: "Selbst Patron ist vorsichtiger als du, und er ist ein Hund."
-			Quote17: "Noch nicht tot... gut, denn ich hatte schon aufgegeben."
-			Quote18: "Die Kosaken hätten das nicht zugelassen. Oder doch, aber mit Würde."
-			Quote19: "Ich hab dich geheilt. Bring mir wenigstens Borscht oder so."
-			Quote20: "Deine Mutter würde das hier definitiv nicht gutheißen."
-			Quote21: "Mein Gott... dieser Held ist schon wieder aufgetaucht."
-			Quote22: "Das ist nicht wie Omas Marmelade — kostenlos und ohne Fragen. Schätz es."
-			Quote23: "Geh schon, sonst verpasse ich meine Serie."
-			Quote24: "Du bist von weit hergekommen, nur um verletzt zu werden? Beeindruckende Hingabe."
-			Quote25: "Ein Programmierer, der nicht ausweichen kann? Klingt plausibel."
-			Quote26: "Selbst der Stadtverkehr ist sicherer als du. Irgendwie."
-			Quote27: "Manche bringen Geschenke. Du bringst Verletzungen."
-			Quote28: "Du hast es hierher geschafft und überlebt. Das ist schon eine Leistung."
+			Quote0: Na gut, diesmal geht es auf mich. Sag es nicht meinem Buchhalter.
+			Quote1: Du siehst schrecklich aus. Hier, kein Aufpreis... diesmal.
+			Quote2: Ich bin Krankenschwester, kein Unternehmen. Nimm es umsonst!
+			Quote3: Gewöhn dich nicht daran. Ich habe auch Rechnungen zu bezahlen, weißt du.
+			Quote4: Du schuldest mir eine. Eigentlich schuldest du mir etwa zwanzig.
+			Quote5: Kostenlos! ...Das werde ich bereuen.
+			Quote6: Versuch einfach, dich in den nächsten fünf Minuten nicht wieder zu verletzen, okay?
+			Quote7: Ich hab dich geflickt. Jetzt geh und mach etwas weniger Gefährliches. Wie Landwirtschaft.
+			Quote8: Schon wieder du? Hast du überhaupt einen Schild?
+			Quote9: Langsam sollte ich Zinsen berechnen.
+			Quote10: Das ist heute das dritte Mal. Ich glaube, du genießt es, verletzt zu werden.
+			Quote11: Halt still... fertig. Diesmal bitte nicht in die Lava laufen.
+			Quote12: Die meisten meiden Gefahr. Du scheinst sie zu sammeln.
+			Quote13: Wie neu! Na ja... fast neu.
+			Quote14: Vielleicht beim nächsten Mal ausweichen?
+			Quote15: Ich bin Krankenschwester geworden um zu helfen, nicht um eine Person immer wieder zu betreuen.
+			Quote16: Selbst Patron ist vorsichtiger als du, und er ist ein Hund.
+			Quote17: Noch nicht tot... gut, denn ich hatte schon aufgegeben.
+			Quote18: Die Kosaken hätten das nicht zugelassen. Oder doch, aber mit Würde.
+			Quote19: Ich hab dich geheilt. Bring mir wenigstens Borscht oder so.
+			Quote20: Deine Mutter würde das hier definitiv nicht gutheißen.
+			Quote21: Mein Gott... dieser Held ist schon wieder aufgetaucht.
+			Quote22: Das ist nicht wie Omas Marmelade — kostenlos und ohne Fragen. Schätz es.
+			Quote23: Geh schon, sonst verpasse ich meine Serie.
+			Quote24: Du bist von weit hergekommen, nur um verletzt zu werden? Beeindruckende Hingabe.
+			Quote25: Ein Programmierer, der nicht ausweichen kann? Klingt plausibel.
+			Quote26: Selbst der Stadtverkehr ist sicherer als du. Irgendwie.
+			Quote27: Manche bringen Geschenke. Du bringst Verletzungen.
+			Quote28: Du hast es hierher geschafft und überlebt. Das ist schon eine Leistung.
 		}
-		Chat: {
-			CooldownMessage: "Komm in {0} Sek. wieder. Ich brauche auch eine Pause!"
-		}
-		UI: {
-			CooldownDisplay: "Krankenschwester: {0}s"
-		}
+
+		Chat.CooldownMessage: Komm in {0} Sek. wieder. Ich brauche auch eine Pause!
+		UI.CooldownDisplay: Krankenschwester: {0}s
+
 		Configs: {
 			NurseHealConfig: {
 				DisplayName: Kostenlose Heilung Einstellungen

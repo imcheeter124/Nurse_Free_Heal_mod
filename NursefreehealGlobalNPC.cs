@@ -48,7 +48,7 @@ namespace Nurse_Free_Heal_mod
             if (healAmount > 0)
             {
                 player.Heal(healAmount);
-                SoundEngine.PlaySound(SoundID.Heal, player.Center);
+                SoundEngine.PlaySound(SoundID.Item3, player.Center);
             }
 
             for (int i = 0; i < player.buffType.Length; i++)
