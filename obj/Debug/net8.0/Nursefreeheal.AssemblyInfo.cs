@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Nursefreeheal")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2b994d1fb94f578fb30dd8df89830c7d99d48427")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+41fdbc03973e736b97c1d281f2bc0843c9150a1b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Nursefreeheal")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Nursefreeheal")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
