@@ -1,1 +1,27 @@
-This description will show up on the steam page, check out https://steamcommunity.com/comment/Guide/formattinghelp.
+[h1]Nurse Free Heal[/h1]
+
+Tired of paying the Nurse every time you need a quick patch-up? This mod makes the Nurse heal you [b]completely free of charge[/b] — just walk up and chat!
+
+[h2]Features[/h2]
+[list]
+[*] Talk to the Nurse to get healed for free — no gold cost
+[*] Removes debuffs on heal, just like the vanilla Nurse
+[*] Configurable [b]cooldown[/b] between free heals (default: 60 seconds)
+[*] Configurable [b]heal percentage[/b] — restore a portion or all of your missing health (default: 100%)
+[*] Optional [b]cooldown reset on boss kill[/b] — defeat a boss and she's ready to go again
+[*] On-screen cooldown timer so you always know when she's available
+[*] 29 unique snarky Nurse quotes to keep things fresh
+[/list]
+
+[h2]Config Options[/h2]
+All settings are server-side and configurable in-game via Mod Config:
+[list]
+[*] [b]Cooldown (seconds)[/b] — 5 to 3600 seconds (default: 60)
+[*] [b]Heal Percentage[/b] — 1% to 100% of missing health (default: 100%)
+[*] [b]Reset Cooldown on Boss Kill[/b] — off by default
+[/list]
+
+[h2]Localization[/h2]
+Supports: English, Ukrainian, Russian, German, Spanish
+
+[url=https://github.com/imcheeter124/Nurse_Free_Heal_mod][b]Source Code on GitHub[/b][/url]
