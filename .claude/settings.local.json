@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \"from PIL import Image; img = Image.open\\(\\\\\"c:/Users/imcheater124/Documents/My Games/Terraria/tModLoader/ModSources/Nurse_Free_Heal_mod/icon.png\\\\\"\\); print\\(img.size\\)\")",
+      "Bash(python3 -c ':*)"
+    ]
+  }
+}
