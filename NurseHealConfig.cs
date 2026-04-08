@@ -9,8 +9,13 @@ namespace Nurse_Free_Heal_mod
 
         [DefaultValue(60)]
         [Range(5, 3600)]
-        [Label("Cooldown (seconds)")]
-        [Tooltip("How long (in seconds) before the nurse heals for free again.\nSet to 0 to always heal for free.")]
         public int CooldownSeconds { get; set; }
+
+        [DefaultValue(100)]
+        [Range(1, 100)]
+        public int HealPercent { get; set; }
+
+        [DefaultValue(false)]
+        public bool ResetCooldownOnBossKill { get; set; }
     }
 }

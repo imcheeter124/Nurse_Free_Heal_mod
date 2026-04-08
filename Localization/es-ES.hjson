@@ -17,19 +17,25 @@ Mods: {
 			Quote13: "¡Como nuevo! Bueno... casi nuevo."
 			Quote14: "La próxima vez, ¿quizás esquivar?"
 			Quote15: "Me hice enfermera para ayudar a la gente, no para cuidar a una sola persona una y otra vez."
-			Quote16: "Even Patron is more careful than you, and he's a dog."
-			Quote17: "Not dead yet... good, because I was already giving up."
-			Quote18: "The Cossacks wouldn't have allowed this. Or they would, but with dignity."
-			Quote19: "I healed you. At least bring me some borscht or something."
-			Quote20: "Your mom would definitely not approve of what you're doing here."
-			Quote21: "Oh my goodness... this hero showed up again."
-			Quote22: "This isn't grandma's jam — free and no questions asked. Appreciate it."
-			Quote23: "Go already, or I'll be late for my TV show."
-			Quote24: "You came from far away just to get hurt? Impressive dedication."
-			Quote25: "A programmer who can't dodge? Sounds about right."
-			Quote26: "Even the city traffic is safer than you. Somehow."
-			Quote27: "You know, some people bring gifts. You bring injuries."
-			Quote28: "You survived getting here. That's already an achievement."
+			Quote16: "Incluso Patron es más cuidadoso que tú, y él es un perro."
+			Quote17: "Aún no muerto... bien, porque ya me había resignado."
+			Quote18: "Los cosacos no habrían permitido esto. O sí, pero con dignidad."
+			Quote19: "Te curé. Al menos tráeme algo de borscht o algo así."
+			Quote20: "Tu mamá definitivamente no aprobaría lo que estás haciendo aquí."
+			Quote21: "Dios mío... este héroe apareció de nuevo."
+			Quote22: "Esto no es la mermelada de la abuela — gratis y sin preguntas. Agradécelo."
+			Quote23: "Vete ya, o llegaré tarde a mi serie."
+			Quote24: "¿Viniste de lejos solo para hacerte daño? Dedicación impresionante."
+			Quote25: "¿Un programador que no sabe esquivar? Suena bastante acertado."
+			Quote26: "Hasta el tráfico de la ciudad es más seguro que tú. De alguna manera."
+			Quote27: "Algunos traen regalos. Tú traes lesiones."
+			Quote28: "Sobreviviste llegar hasta aquí. Eso ya es un logro."
+		}
+		Chat: {
+			CooldownMessage: "Vuelve en {0} segundo(s). ¡Yo también necesito un descanso!"
+		}
+		UI: {
+			CooldownDisplay: "Enfermera: {0}s"
 		}
 		Configs: {
 			NurseHealConfig: {
@@ -42,6 +48,20 @@ Mods: {
 						Cuántos segundos esperar hasta la próxima curación gratuita.
 						Mínimo: 5 segundos.
 						'''
+				}
+
+				HealPercent: {
+					Label: Porcentaje de curación
+					Tooltip:
+						'''
+						Cuánta salud faltante restaura la Enfermera (1–100%).
+						100 = curación completa, 50 = mitad.
+						'''
+				}
+
+				ResetCooldownOnBossKill: {
+					Label: Reiniciar recarga al matar un jefe
+					Tooltip: Si está activado, derrotar a un jefe reinicia instantáneamente el tiempo de recarga.
 				}
 			}
 		}

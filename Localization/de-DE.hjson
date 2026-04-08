@@ -17,19 +17,25 @@ Mods: {
 			Quote13: "Wie neu! Na ja... fast neu."
 			Quote14: "Vielleicht beim nächsten Mal ausweichen?"
 			Quote15: "Ich bin Krankenschwester geworden um zu helfen, nicht um eine Person immer wieder zu betreuen."
-			Quote16: "Even Patron is more careful than you, and he's a dog."
-			Quote17: "Not dead yet... good, because I was already giving up."
-			Quote18: "The Cossacks wouldn't have allowed this. Or they would, but with dignity."
-			Quote19: "I healed you. At least bring me some borscht or something."
-			Quote20: "Your mom would definitely not approve of what you're doing here."
-			Quote21: "Oh my goodness... this hero showed up again."
-			Quote22: "This isn't grandma's jam — free and no questions asked. Appreciate it."
-			Quote23: "Go already, or I'll be late for my TV show."
-			Quote24: "You came from far away just to get hurt? Impressive dedication."
-			Quote25: "A programmer who can't dodge? Sounds about right."
-			Quote26: "Even the city traffic is safer than you. Somehow."
-			Quote27: "You know, some people bring gifts. You bring injuries."
-			Quote28: "You survived getting here. That's already an achievement."
+			Quote16: "Selbst Patron ist vorsichtiger als du, und er ist ein Hund."
+			Quote17: "Noch nicht tot... gut, denn ich hatte schon aufgegeben."
+			Quote18: "Die Kosaken hätten das nicht zugelassen. Oder doch, aber mit Würde."
+			Quote19: "Ich hab dich geheilt. Bring mir wenigstens Borscht oder so."
+			Quote20: "Deine Mutter würde das hier definitiv nicht gutheißen."
+			Quote21: "Mein Gott... dieser Held ist schon wieder aufgetaucht."
+			Quote22: "Das ist nicht wie Omas Marmelade — kostenlos und ohne Fragen. Schätz es."
+			Quote23: "Geh schon, sonst verpasse ich meine Serie."
+			Quote24: "Du bist von weit hergekommen, nur um verletzt zu werden? Beeindruckende Hingabe."
+			Quote25: "Ein Programmierer, der nicht ausweichen kann? Klingt plausibel."
+			Quote26: "Selbst der Stadtverkehr ist sicherer als du. Irgendwie."
+			Quote27: "Manche bringen Geschenke. Du bringst Verletzungen."
+			Quote28: "Du hast es hierher geschafft und überlebt. Das ist schon eine Leistung."
+		}
+		Chat: {
+			CooldownMessage: "Komm in {0} Sek. wieder. Ich brauche auch eine Pause!"
+		}
+		UI: {
+			CooldownDisplay: "Krankenschwester: {0}s"
 		}
 		Configs: {
 			NurseHealConfig: {
@@ -42,6 +48,20 @@ Mods: {
 						Wie viele Sekunden bis zur nächsten kostenlosen Heilung gewartet werden muss.
 						Minimum: 5 Sekunden.
 						'''
+				}
+
+				HealPercent: {
+					Label: Heilungsprozentsatz
+					Tooltip:
+						'''
+						Wie viel der fehlenden Gesundheit die Krankenschwester wiederherstellt (1–100%).
+						100 = vollständige Heilung, 50 = halbe Heilung.
+						'''
+				}
+
+				ResetCooldownOnBossKill: {
+					Label: Abklingzeit beim Bosskill zurücksetzen
+					Tooltip: Wenn aktiviert, setzt das Besiegen eines Bosses die Abklingzeit sofort zurück.
 				}
 			}
 		}

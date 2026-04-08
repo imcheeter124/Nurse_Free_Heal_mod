@@ -17,19 +17,25 @@ Mods: {
 			Quote13: "Как новенький! Ну... почти."
 			Quote14: "В следующий раз, может, попробуешь уклониться?"
 			Quote15: "Я стала медсестрой, чтобы помогать людям, а не нянчиться с одним и тем же человеком снова и снова."
-			Quote16: "Even Patron is more careful than you, and he's a dog."
-			Quote17: "Not dead yet... good, because I was already giving up."
-			Quote18: "The Cossacks wouldn't have allowed this. Or they would, but with dignity."
-			Quote19: "I healed you. At least bring me some borscht or something."
-			Quote20: "Your mom would definitely not approve of what you're doing here."
-			Quote21: "Oh my goodness... this hero showed up again."
-			Quote22: "This isn't grandma's jam — free and no questions asked. Appreciate it."
-			Quote23: "Go already, or I'll be late for my TV show."
-			Quote24: "You came from far away just to get hurt? Impressive dedication."
-			Quote25: "A programmer who can't dodge? Sounds about right."
-			Quote26: "Even the city traffic is safer than you. Somehow."
-			Quote27: "You know, some people bring gifts. You bring injuries."
-			Quote28: "You survived getting here. That's already an achievement."
+			Quote16: "Даже Патрон осторожнее тебя, а он собака."
+			Quote17: "Ещё не умер... хорошо, а то я уже прощалась."
+			Quote18: "Казаки бы такого не допустили. Или допустили бы, но с достоинством."
+			Quote19: "Вылечила тебя. Хоть борща принеси, что ли."
+			Quote20: "Твоя мама точно не одобрила бы то, что ты тут вытворяешь."
+			Quote21: "Батюшки... опять этот герой пришёл."
+			Quote22: "Это тебе не варенье от бабушки — бесплатно и без вопросов. Цени."
+			Quote23: "Иди уже, а то я на сериал опоздаю."
+			Quote24: "Издалека пришёл, чтобы получить травму? Впечатляющая преданность."
+			Quote25: "Программист, который не умеет уворачиваться? Звучит правдоподобно."
+			Quote26: "Даже городские пробки безопаснее тебя. Как-то так."
+			Quote27: "Знаешь, некоторые приносят подарки. Ты приносишь травмы."
+			Quote28: "Ты выжил, добравшись сюда. Это уже достижение."
+		}
+		Chat: {
+			CooldownMessage: "Приходи через {0} сек. Мне тоже нужен отдых!"
+		}
+		UI: {
+			CooldownDisplay: "Медсестра: {0}с"
 		}
 		Configs: {
 			NurseHealConfig: {
@@ -42,6 +48,20 @@ Mods: {
 						Сколько секунд ждать до следующего бесплатного лечения.
 						Минимум: 5 секунд.
 						'''
+				}
+
+				HealPercent: {
+					Label: Процент лечения
+					Tooltip:
+						'''
+						Какую часть недостающего здоровья восстановит Медсестра (1–100%).
+						100 = полное лечение, 50 = половина.
+						'''
+				}
+
+				ResetCooldownOnBossKill: {
+					Label: Сбрасывать кулдаун при убийстве босса
+					Tooltip: Если включено, убийство босса мгновенно сбрасывает кулдаун лечения.
 				}
 			}
 		}

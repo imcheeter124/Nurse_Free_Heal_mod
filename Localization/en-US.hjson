@@ -31,6 +31,12 @@ Mods: {
 			Quote27: "You know, some people bring gifts. You bring injuries."
 			Quote28: "You survived getting here. That's already an achievement."
 		}
+		Chat: {
+			CooldownMessage: "Come back in {0} second(s). I need a break too!"
+		}
+		UI: {
+			CooldownDisplay: "Nurse: {0}s"
+		}
 		Configs: {
 			NurseHealConfig: {
 				DisplayName: Nurse Heal Config
@@ -42,6 +48,20 @@ Mods: {
 						How long (in seconds) before the nurse heals for free again.
 						Minimum: 5 seconds.
 						'''
+				}
+
+				HealPercent: {
+					Label: Heal Percentage
+					Tooltip:
+						'''
+						How much of missing health the Nurse restores (1–100%).
+						100 = full heal, 50 = half heal.
+						'''
+				}
+
+				ResetCooldownOnBossKill: {
+					Label: Reset Cooldown on Boss Kill
+					Tooltip: If enabled, defeating a boss instantly resets the heal cooldown.
 				}
 			}
 		}
