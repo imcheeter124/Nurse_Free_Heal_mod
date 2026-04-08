@@ -1,6 +1,6 @@
 using Terraria.ModLoader;
 
-namespace Nursefreeheal
+namespace Nurse_Free_Heal_mod
 {
     public class Nursefreeheal : Mod
     {

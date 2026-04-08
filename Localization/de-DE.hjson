@@ -1,0 +1,49 @@
+Mods: {
+	Nurse_Free_Heal_mod: {
+		NurseQuotes: {
+			Quote0: "Na gut, diesmal geht es auf mich. Sag es nicht meinem Buchhalter."
+			Quote1: "Du siehst schrecklich aus. Hier, kein Aufpreis... diesmal."
+			Quote2: "Ich bin Krankenschwester, kein Unternehmen. Nimm es umsonst!"
+			Quote3: "Gewöhn dich nicht daran. Ich habe auch Rechnungen zu bezahlen, weißt du."
+			Quote4: "Du schuldest mir eine. Eigentlich schuldest du mir etwa zwanzig."
+			Quote5: "Kostenlos! ...Das werde ich bereuen."
+			Quote6: "Versuch einfach, dich in den nächsten fünf Minuten nicht wieder zu verletzen, okay?"
+			Quote7: "Ich hab dich geflickt. Jetzt geh und mach etwas weniger Gefährliches. Wie Landwirtschaft."
+			Quote8: "Schon wieder du? Hast du überhaupt einen Schild?"
+			Quote9: "Langsam sollte ich Zinsen berechnen."
+			Quote10: "Das ist heute das dritte Mal. Ich glaube, du genießt es, verletzt zu werden."
+			Quote11: "Halt still... fertig. Diesmal bitte nicht in die Lava laufen."
+			Quote12: "Die meisten meiden Gefahr. Du scheinst sie zu sammeln."
+			Quote13: "Wie neu! Na ja... fast neu."
+			Quote14: "Vielleicht beim nächsten Mal ausweichen?"
+			Quote15: "Ich bin Krankenschwester geworden um zu helfen, nicht um eine Person immer wieder zu betreuen."
+			Quote16: "Even Patron is more careful than you, and he's a dog."
+			Quote17: "Not dead yet... good, because I was already giving up."
+			Quote18: "The Cossacks wouldn't have allowed this. Or they would, but with dignity."
+			Quote19: "I healed you. At least bring me some borscht or something."
+			Quote20: "Your mom would definitely not approve of what you're doing here."
+			Quote21: "Oh my goodness... this hero showed up again."
+			Quote22: "This isn't grandma's jam — free and no questions asked. Appreciate it."
+			Quote23: "Go already, or I'll be late for my TV show."
+			Quote24: "You came from far away just to get hurt? Impressive dedication."
+			Quote25: "A programmer who can't dodge? Sounds about right."
+			Quote26: "Even the city traffic is safer than you. Somehow."
+			Quote27: "You know, some people bring gifts. You bring injuries."
+			Quote28: "You survived getting here. That's already an achievement."
+		}
+		Configs: {
+			NurseHealConfig: {
+				DisplayName: Kostenlose Heilung Einstellungen
+
+				CooldownSeconds: {
+					Label: Abklingzeit (Sekunden)
+					Tooltip:
+						'''
+						Wie viele Sekunden bis zur nächsten kostenlosen Heilung gewartet werden muss.
+						Minimum: 5 Sekunden.
+						'''
+				}
+			}
+		}
+	}
+}
