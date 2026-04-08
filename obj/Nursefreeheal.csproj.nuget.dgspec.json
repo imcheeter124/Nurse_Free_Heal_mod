@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\imcheater124\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Nursefreeheal\\Nursefreeheal.csproj": {}
+    "C:\\Users\\imcheater124\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Nurse_Free_Heal_mod\\Nursefreeheal.csproj": {}
   },
   "projects": {
-    "C:\\Users\\imcheater124\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Nursefreeheal\\Nursefreeheal.csproj": {
+    "C:\\Users\\imcheater124\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Nurse_Free_Heal_mod\\Nursefreeheal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\imcheater124\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Nursefreeheal\\Nursefreeheal.csproj",
+        "projectUniqueName": "C:\\Users\\imcheater124\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Nurse_Free_Heal_mod\\Nursefreeheal.csproj",
         "projectName": "Nursefreeheal",
-        "projectPath": "C:\\Users\\imcheater124\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Nursefreeheal\\Nursefreeheal.csproj",
+        "projectPath": "C:\\Users\\imcheater124\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Nurse_Free_Heal_mod\\Nursefreeheal.csproj",
         "packagesPath": "C:\\Users\\imcheater124\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\imcheater124\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Nursefreeheal\\obj\\",
+        "outputPath": "C:\\Users\\imcheater124\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\Nurse_Free_Heal_mod\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\imcheater124\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\imcheater124\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -44,17 +38,11 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "dependencies": {
-            "tModLoader.CodeAssist": {
-              "target": "Package",
-              "version": "[0.1.*, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -66,12 +54,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.22, 8.0.22]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.22, 8.0.22]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.22, 8.0.22]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

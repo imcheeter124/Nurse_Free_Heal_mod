@@ -14,8 +14,7 @@ namespace Nursefreeheal
                 int missing = player.statLifeMax2 - player.statLife;
                 if (missing > 0)
                 {
-                    player.statLife = player.statLifeMax2;
-                    player.HealEffect(missing, true);
+                    player.Heal(missing);
                 }
                 for (int i = 0; i < player.buffType.Length; i++)
                 {
